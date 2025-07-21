@@ -35,7 +35,7 @@ However, when we run our  script with the echo command which its fuction is to p
 
 
 ## The If statement:
-This allow user to execute commands basd on condition. Example whn we say ;
+This allow user to execute commands basd on condition. Example when we say ;
 
 ![IF-command](./New-pic-10/4.IF-command.png).
 
@@ -44,7 +44,7 @@ This allow user to execute commands basd on condition. Example whn we say ;
 - [ condition]: Bracket are used to enclose the condition.
 - then: if the condition is met, execute the command.
 - fi: this is what end the if statement. it is basically if spelled in backward.
- So in this script you are saying that if the value of number is greater than ziro then you have entered a positive number.
+ So in this script you are saying that if the value of number is greater than zero then you have entered a positive number.
 
 
  ## elif statement:
@@ -53,11 +53,11 @@ This allow user to execute commands basd on condition. Example whn we say ;
 
  ![elif](./New-pic-10/5.elif.png)
 
- in this script, you are telling the system to print outcome as positive if the number is greater than 3. Again if that condition is not met and the number is less than 3, it print it as nagetive.
+ in this script, you are telling the system to print outcome as positive if the number is greater than 3. Again if that condition is not met and the number is less than 3, it print it as negetive.
 
  
  ## Loops :
- Loops are programming language that let you run the same set of command multiple times automatically. Assuming you want to send a message to five people, instaed of you to send it one by one , you could now use loops to write a single set of instruction that can be executed as many as needed.
+ Loops are programming language that let you run the same set of command multiple times automatically. Assuming you want to send a message to five people, instead of you to send it one by one , you could now use loops to write a single set of instruction that can be executed as many as needed.
  In Bash scripting, there are three types of loops commonly use to repeat a set of command multiple times. These are ; 1.for loop, 2.while loop and 3.untill loop.
 
  ## For loop:
