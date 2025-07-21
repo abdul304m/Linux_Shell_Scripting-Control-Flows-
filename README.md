@@ -53,7 +53,7 @@ This allow user to execute commands basd on condition. Example whn we say ;
 
  ![elif](./New-pic-10/5.elif.png)
 
- in this script, you rae telling the system to print outcome as positive if the number is greater than 3. Again if that condition is not met and the number is less than 3, it print it as nagetive.
+ in this script, you are telling the system to print outcome as positive if the number is greater than 3. Again if that condition is not met and the number is less than 3, it print it as nagetive.
 
  
  ## Loops :
@@ -61,11 +61,40 @@ This allow user to execute commands basd on condition. Example whn we say ;
  In Bash scripting, there are three types of loops commonly use to repeat a set of command multiple times. These are ; 1.for loop, 2.while loop and 3.untill loop.
 
  ## For loop:
- thus is use to repeat a set of commands for each item in a list. example;
-
- ![Foe-loop](./New-pic-10/6.for-loop.png).
+ this is use to repeat a set of commands for each item in a list. The For loops has two main forms:
  
+ 1. List form : this repeat over a list of items, and its  basic syntax is :
+
+ "for item in item1 item2 item3;
+  do
+    echo $item
+
+    Break down; 
+
+    -for : initiate the the loop.
+    -item : this is a variable that temporarily holds the value of each item.
+    -in : this is followed by the list of item that the loop will repeat.
+    -; : the semi-colon is used to saparate the list of items from the do.
+    -do : This proceed the block of cpmmand that will be executed for each item in the list.
+    -done : this mark the end of the loop.
+
+2. C-style form : this allow you to specify an innitializer, condition, and increament/decreament expression. 
+
+## Task using for loops
+
+## script one For loop
+
+![for-loops](./New-pic-10/7.for-loop1.png).
+
+## script two c-style for loops
+
+![c-style-for-loop](./New-pic-10/8.c-style-loop.png)
+
+
+## Looping through file
   
+![looping_through-file](./New-pic-10/lopiing-through.png).
 
 
-
+## conclusion 
+This is a brief explanation of how you could used control flow statements using shell scripting.
